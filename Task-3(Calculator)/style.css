@@ -1,0 +1,78 @@
+body{
+    text-align: center;
+    background-color: #000000;
+   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+h1{
+    color: violet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#row {
+    border-radius: 0px 0px 20px 20px;
+    border: solid 30px none;
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    flex-direction: column;
+    background-color: none;
+
+}
+.input{
+    width: 25%;
+    text-align: center;
+    padding: 20px ;
+    margin: auto;
+    display: flex; 
+    background-color: black;
+    color: violet;
+   gap: 20px;
+   margin-top: 50px;
+    font-size: 30px;
+    border-radius: 10px ;    
+    border: 3px solid violet;
+    outline: none;
+}
+/* input {
+    width: 150px;
+    border: 2px solid #aeaeb5;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 2px;
+     margin-top: -10px; */
+  /* }
+  input:focus {
+    outline: none;
+    border-color: #26bf47;
+    box-shadow: 0 0 10px #26bf47;
+  } */ 
+.button{
+    margin: 4px 10px;
+    width: 5vw;
+    height: 5vw;
+   /* padding: 1% 1%;*/
+    cursor: pointer;
+    border: 1px solid violet;
+    border-radius: 5px;
+    font-size: 35px;
+    /* color: white; */
+    background-color: transparent;
+    color: rgb(255, 76, 252);
+    box-shadow: 2px 2px rgb(255, 76, 252);
+    margin-top: 10px;
+    text-shadow:  2px ;
+}
+.equal{
+    border-color: yellow;
+    color: yellow;
+    box-shadow: 2px 2px yellow;
+}
+.clear{
+    border:1px solid rgb(252, 51, 51);
+    color: rgb(252, 51, 51);
+    box-shadow: 2px 2px rgb(252, 51, 51);
+}
+/* .seven{
+    border: 2px solid violet;
+    background-color: #000000;
+    color: violet;
+} */
